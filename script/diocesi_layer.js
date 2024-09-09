@@ -31118,7 +31118,7 @@ var diocesi =     {
 var geoJsonLayer = L.geoJSON(diocesi, {
     style: function(feature) {
         switch (feature.properties.nome) {
-            case 'Fermo': return {color: "#ff0000", fillOpacity: 0.4};
+            case 'Fermo': return {color: "#ff0000", fillOpacity: 0.1};
         }
     }
 }).addTo(map);
@@ -31128,9 +31128,9 @@ function toggleLayer1(isChecked) {
         if (layer.feature.properties.nome === 'Fermo') {
             // Toggle the visibility by setting opacity based on checkbox state
             if (isChecked) {
-                layer.setStyle({opacity: 1, fillOpacity: 0.4}); // Show feature
+                map.addLayer(geoJsonLayer)
             } else {
-                layer.setStyle({opacity: 0, fillOpacity: 0}); // Hide feature
+                map.removeLayer(geoJsonLayer)
             }
         }
     });
