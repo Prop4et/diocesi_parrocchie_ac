@@ -20,7 +20,7 @@ var parrocchiePres =[
         "properties": {
             "name": "Sant'Anna",
             "tipologia": "Presidenza",
-            "popupContent":"<p><b>Parrocchia</b>: Sant'Anna' <p><b>Comune</b>: Porto Potenza Picena <p><b>Presidente</b>: Arianna Galassi"
+            "popupContent":"<p><b>Parrocchia</b>: Sant'Anna <p><b>Comune</b>: Porto Potenza Picena <p><b>Presidente</b>: Arianna Galassi"
         }
     },
     {

@@ -20,7 +20,7 @@ var others = [
         "properties": {
             "name": "San Carlo Borromeo",
             "tipologia": "others",
-            "popupContent":"<p><b>Parrocchia</b>: San Carlo Borromeo<p><b>Comune</b>: Fermo <p><b>Educatrice ACR</b>: Enrico Rossi"
+            "popupContent":"<p><b>Parrocchia</b>: San Carlo Borromeo<p><b>Comune</b>: Civitanova Marche <p><b>Educatrice ACR</b>: Erika Cardelli"
         }
     },
 ]
